@@ -1,0 +1,14 @@
+D:\Projects\RL\RocketLoopCoreApi\RocketLoopCoreApi\obj\Debug\netcoreapp2.2\RocketLoopCoreApi.csprojAssemblyReference.cache
+D:\Projects\RL\RocketLoopCoreApi\RocketLoopCoreApi\obj\Debug\netcoreapp2.2\RocketLoopCoreApi.csproj.CoreCompileInputs.cache
+D:\Projects\RL\RocketLoopCoreApi\RocketLoopCoreApi\obj\Debug\netcoreapp2.2\RocketLoopCoreApi.RazorAssemblyInfo.cache
+D:\Projects\RL\RocketLoopCoreApi\RocketLoopCoreApi\obj\Debug\netcoreapp2.2\RocketLoopCoreApi.RazorAssemblyInfo.cs
+D:\Projects\RL\RocketLoopCoreApi\RocketLoopCoreApi\obj\Debug\netcoreapp2.2\RocketLoopCoreApi.AssemblyInfoInputs.cache
+D:\Projects\RL\RocketLoopCoreApi\RocketLoopCoreApi\obj\Debug\netcoreapp2.2\RocketLoopCoreApi.AssemblyInfo.cs
+D:\Projects\RL\RocketLoopCoreApi\RocketLoopCoreApi\bin\Debug\netcoreapp2.2\RocketLoopCoreApi.deps.json
+D:\Projects\RL\RocketLoopCoreApi\RocketLoopCoreApi\bin\Debug\netcoreapp2.2\RocketLoopCoreApi.runtimeconfig.json
+D:\Projects\RL\RocketLoopCoreApi\RocketLoopCoreApi\bin\Debug\netcoreapp2.2\RocketLoopCoreApi.runtimeconfig.dev.json
+D:\Projects\RL\RocketLoopCoreApi\RocketLoopCoreApi\bin\Debug\netcoreapp2.2\RocketLoopCoreApi.dll
+D:\Projects\RL\RocketLoopCoreApi\RocketLoopCoreApi\obj\Debug\netcoreapp2.2\RocketLoopCoreApi.RazorTargetAssemblyInfo.cache
+D:\Projects\RL\RocketLoopCoreApi\RocketLoopCoreApi\bin\Debug\netcoreapp2.2\RocketLoopCoreApi.pdb
+D:\Projects\RL\RocketLoopCoreApi\RocketLoopCoreApi\obj\Debug\netcoreapp2.2\RocketLoopCoreApi.dll
+D:\Projects\RL\RocketLoopCoreApi\RocketLoopCoreApi\obj\Debug\netcoreapp2.2\RocketLoopCoreApi.pdb
