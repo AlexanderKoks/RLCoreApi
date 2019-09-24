@@ -19,6 +19,7 @@ namespace RocketLoopCoreApi.Controllers
         public async Task<IActionResult> Get()
         {
             var users = await _userService.GetAllUsersAsync();
+
             return Ok(users);
         }
 
