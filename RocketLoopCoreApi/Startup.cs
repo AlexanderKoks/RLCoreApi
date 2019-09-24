@@ -4,11 +4,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Internal;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using RocketLoopCoreApi.Middlewares;
 using RocketLoopCoreApi.Models;
 using RocketLoopCoreApi.Repositories;
 using RocketLoopCoreApi.Repositories.Interfaces;
@@ -32,9 +35,12 @@ namespace RocketLoopCoreApi
             services.AddTransient<IUserService, UserService>();
             services.AddTransient<IUserRepository, UserRepository>();
             services.AddSingleton<IEnumerable<User>>(new User[] {
-                new User { Id = 1, Name = "name1" },
-                new User { Id = 2, Name = "name2" }
+                new User { Id = 1, Name = "rl1" },
+                new User { Id = 2, Name = "rl2" },
+                new User { Id = 3, Name = "rl3" },
+                new User { Id = 4, Name = "rl4" }
             });
+
             services.AddMvc().AddControllersAsServices().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
@@ -46,8 +52,11 @@ namespace RocketLoopCoreApi
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseMiddleware<ReplaceMiddleware>();
+
             app.ApplicationServices.GetServices<IDisposable>();
             app.UseMvc();
+
         }
     }
 }
